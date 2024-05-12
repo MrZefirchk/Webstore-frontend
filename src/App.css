@@ -8,199 +8,57 @@
   padding: 0;
 }
 
-/* header {
-  background-color: #333;
-  color: #ffffff;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-around;
-} */
-
 .about {
   background-color: #000;
 }
 
-/* header ul {
-    list-style: none;
-}
-
-header a {
-    text-decoration: none;
-    color: white;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header nav .navigation__pages ul {
-    display: flex;
-}
-
-header .right_section ul {
-    display: flex;
-} */
-
-/* .logo a {
-  text-decoration: none;
-  color: #fff;
-} */
-
-/* Стили для навигации *
-nav {
+header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  border: 1px black solid;
 }
 
-/* Стили для логотипа *
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-/* Стили для навигационного меню *
-.navigation__pages ul {
+header ul {
   list-style: none;
-  display: flex;
-  margin-left: 25px;
-}
-
-.navigation__pages li {
-  margin-right: 20px;
-}
-
-.navigation__pages a {
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/* Стили для раздела регистрации *
-.right_section ul {
-  list-style: none;
-  display: flex;
-}
-
-.right_section li {
-  margin-right: 20px;
-}
-
-.right_section a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}*/
-
-/* Ваш файл стилей (например, Header.css) */
-.header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  background-color: #f0f0f0;
 }
 
 .left,
+.center,
 .right {
-  display: flex;
-  align-items: center;
-}
-
-.center {
+  padding: 20px;
   flex-grow: 1;
   text-align: center;
 }
 
-nav ul,
-.right ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li,
-.right ul li {
-  display: inline;
-  margin-left: 20px; /* Примерный отступ между элементами */
-}
-
-.logo {
-  text-decoration: none;
-  color: #333; /* Примерный цвет текста */
-  font-weight: bold;
-}
-
-/* .left,
-.center,
-.right {
-  display: flex;
-  align-items: center;
-}
-
-.left {
-  flex: 1;
-}
-
-.logo {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: #333;
+.left,
+.center > ul li,
+.right > ul li {
+  padding: 20px;
 }
 
 .center {
-  flex: 2;
-  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.center ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
+header ul li {
+  display: inline;
 }
 
-.center ul li {
-  margin-right: 20px;
-}
-
-.center ul li:last-child {
-  margin-right: 0;
-}
-
-.center ul li a {
+header ul li a {
   text-decoration: none;
-  color: #333;
-  font-size: 1rem;
 }
 
+.right ul li img {
+  width: 30px;
+  height: 30px;
+}
+
+.left,
 .right {
-  flex: 1;
-  justify-content: flex-end;
+  flex-basis: 0;
 }
-
-.right ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.right ul li {
-  margin-left: 20px;
-}
-
-.right ul li:first-child {
-  margin-left: 0;
-}
-
-.right ul li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1rem;
-} */
 
 .bracelets__list {
   display: flex;
