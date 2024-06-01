@@ -1,0 +1,22 @@
+.about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.store-name {
+  font-weight: bold;
+  color: #7d9bb1;
+}

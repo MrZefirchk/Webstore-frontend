@@ -1,0 +1,77 @@
+.bracelet {
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: white;
+}
+
+.bracelet-catalog {
+  width: calc(20% - 20px);
+}
+
+.bracelet-carousel {
+  width: calc(100% - 20px);
+}
+
+.bracelet:hover {
+  border-color: #5f5f5f;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bracelet__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 9px 9px 0 0;
+}
+
+.bracelet__info {
+  padding: 10px;
+}
+
+.bracelet__info div {
+  margin-bottom: 10px;
+}
+
+.bracelet__name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bracelet__description {
+  font-size: 14px;
+  color: #555;
+}
+
+.bracelet__price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bracelet button {
+  background-color: var(--color-text);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  height: 50px;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+.bracelet button:hover {
+  background-color: #535353;
+}
+
+.bracelets-catalog {
+  display: flex;
+  flex-wrap: wrap;
+}

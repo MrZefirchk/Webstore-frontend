@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--color-brand);
+  color: var(--color-text);
+  font-size: 15px;
+}
+
+header * {
+  color: var(--color-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .left,
+.center,
+.right {
+  padding: 20px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+header .left,
+.center > ul li,
+.right > ul li {
+  padding: 20px;
+}
+
+header .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header ul li {
+  display: inline;
+}
+
+header .right ul li svg {
+  fill: var(--color-text);
+  height: 24px;
+  width: 24px;
+}
+
+header .left,
+.right {
+  flex-basis: 0;
+  border-bottom: none;
+}

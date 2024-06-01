@@ -1,0 +1,23 @@
+.home-page {
+  text-align: center;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section h2 {
+  font-size: 24px;
+}
+
+.bracelet-carousel-container {
+  margin-top: 50px;
+}

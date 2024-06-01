@@ -1,0 +1,4 @@
+.bracelets-catalog {
+  display: flex;
+  flex-wrap: wrap;
+}

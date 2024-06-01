@@ -1,0 +1,340 @@
+:root {
+  /* --color-brand: #f10408; */
+  --color-brand: white;
+  --color-text: rgb(51, 51, 51);
+  /* --color-text: rgb(95, 95, 95); */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-family: "Poppins";
+}
+
+/* .about {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.about h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.store-name {
+  font-weight: bold;
+  color: #7d9bb1;
+} */
+
+/* .contacts {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contacts h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+} */
+
+/* .home-page {
+  text-align: center;
+}
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section h2 {
+  font-size: 24px;
+}
+
+.bracelet-carousel-container {
+  margin-top: 50px;
+} */
+
+/* .info-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.info-item h3 {
+  margin-bottom: 5px;
+}
+
+.contact-message {
+  margin-top: 20px;
+} */
+
+/* header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--color-brand);
+  color: var(--color-text);
+  font-size: 15px;
+}
+
+header * {
+  color: var(--color-text);
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .left,
+.center,
+.right {
+  padding: 20px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+header .left,
+.center > ul li,
+.right > ul li {
+  padding: 20px;
+}
+
+header .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header ul li {
+  display: inline;
+}
+
+header .right ul li svg {
+  fill: var(--color-text);
+  height: 24px;
+  width: 24px;
+}
+
+header .left,
+.right {
+  flex-basis: 0;
+  border-bottom: none;
+} */
+
+/* .bracelets__list {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+/* .bracelet {
+  /* padding: 10px; 
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  width: calc(
+    25% - 20px
+  );
+  box-sizing: border-box;
+}
+
+.bracelet:hover {
+  border-color: #5f5f5f;
+  cursor: pointer;
+}
+
+.bracelet__image img {
+  width: 100%;
+  border-radius: 9px 9px 0 0;
+} */
+
+/* src/components/BraceletItem.css */
+/* .bracelet {
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: white;
+}
+
+.bracelet:hover {
+  border-color: #5f5f5f;
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bracelet__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 9px 9px 0 0;
+}
+
+.bracelet__info {
+  padding: 10px;
+}
+
+.bracelet__info div {
+  margin-bottom: 10px;
+}
+
+.bracelet__name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bracelet__description {
+  font-size: 14px;
+  color: #555;
+}
+
+.bracelet__price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.bracelet button {
+  background-color: var(--color-text);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  height: 50px;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+.bracelet button:hover {
+  background-color: #535353;
+} */
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+} */
+
+button {
+  background-color: var(--color-text);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  height: 50px;
+  border-radius: 9px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: #535353;
+}
+
+/* .login_form_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - var(--header-height));
+  margin: 0;
+}
+
+.login_form {
+  border: #000 1px solid;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.login_form .login_usernames_fields,
+.login_passwords_fields {
+  padding: 10px;
+} */
+
+/* Стили для больших экранов (например, ширина окна браузера больше 992px) */
+/* @media (min-width: 992px) {
+  .bracelet {
+    width: calc(20% - 20px);
+  }
+} */
+
+/* Стили для средних экранов (например, ширина окна браузера между 768px и 991px) */
+/* @media (min-width: 762px) and (max-width: 991px) {
+  .bracelet {
+    width: calc(33.33% - 20px);
+  }
+} */
+
+/* Стили для средних экранов (например, ширина окна браузера между 768px и 991px) */
+/* @media (min-width: 480px) and (max-width: 761px) {
+  .bracelet {
+    width: calc(50% - 20px);
+  }
+} */
+
+/* Стили для маленьких экранов (например, ширина окна браузера меньше 768px) */
+/* @media (max-width: 480px) {
+  .bracelet {
+    width: 100%;
+  }
+} */

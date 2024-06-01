@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import BraceletItem from "../components/BraceletItem";
 import { bracelets } from "../constants/bracelets";
+import "../styles/BraceletItem.css";
 
 function BraceletsCatalogPage() {
   const [braceletsList, setBraceletsList] = useState([]);
@@ -10,10 +12,16 @@ function BraceletsCatalogPage() {
   });
 
   return (
-    <div className="bracelets__list">
+    <div className="bracelets-catalog">
       {braceletsList.length > 0 ? (
         braceletsList.map((bracelet) => (
-          <BraceletItem bracelet={bracelet} key={bracelet.id} />
+          <Link key={bracelet.id} to={`/bracelet/${bracelet.id}`}>
+            <BraceletItem
+              bracelet={bracelet}
+              key={bracelet.id}
+              context="catalog"
+            />
+          </Link>
         ))
       ) : (
         <p>No bracelets aveilable</p>

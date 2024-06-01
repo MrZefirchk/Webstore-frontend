@@ -1,0 +1,45 @@
+/* src/pages/BraceletInfoPage.css */
+.bracelet-info-page {
+  display: flex;
+  padding: 20px;
+}
+
+.bracelet-image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.bracelet-details {
+  flex: 1;
+}
+
+.bracelet-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bracelet-details p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.bracelet-details strong {
+  font-weight: bold;
+}
+
+.bracelet-details button {
+  padding: 10px 20px;
+  background-color: var(--color-text);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bracelet-details button:hover {
+  background-color: #0056b3;
+}
